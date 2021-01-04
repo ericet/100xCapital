@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>100X Capital</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="assets/css/iconfont.css"/>
+    <link rel="stylesheet" href="assets/css/slick.css"/>
+    <link rel="stylesheet" href="assets/css/slick-theme.css"/>
+    <link rel="stylesheet" href="assets/css/index.css"/>
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="200">
+
+<div id="app" v-cloak>
+
+    <div class="container fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light text-uppercase font-weight-bold" style="background-color: rgb(95 175 234);" id="navbar">
+            <a class="navbar-brand smoothscroll" href="#header">
+                <img src="assets/img/logo.png"/>
+            </a>
+
+            <a href="#" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link smoothscroll" href="#header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link smoothscroll" href="#about_us">{{ trans('messages.nav.about_us') }}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link smoothscroll" href="#contact_us">{{ trans('messages.nav.contact_us') }}</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div id="header">
+        <div class="container" id="header-content">
+            <h3 class="text-white text-center" v-html="trans('messages.header.text1')"></h3>
+            <h1 class="text-white text-center font-weight-bold text-uppercase" v-html="trans('messages.header.text2')"></h1>
+            <h2 class="text-white text-center" v-html="trans('messages.header.text3')"></h2>
+        </div>
+        <div class="parallax-wave" id="wave-grey1"></div>
+        <div class="parallax-wave" id="wave-grey2"></div>
+        <div class="parallax-wave" id="wave-white"></div>
+    </div>
+
+    <div class="container text-center" id="screen">
+        <img src="assets/img/screen.png" class="mx-auto"/>
+        <!--<a href="#" class="play-video">-->
+            <!--<i class="fa fa-play"></i>-->
+        <!--</a>-->
+    </div>
+
+
+    <div id="projects-trigger"></div>
+    <div id="projects">
+        <h3 class="text-center mb-0" id="projects-header" v-html="trans('messages.projects.headline')"></h3>
+
+        <div id="projects-container"></div>
+
+        <!--<div class="text-center all-projects">
+            <a href="#" class="btn btn-light">See all Projects</a>
+        </div>-->
+    </div>
+
+
+    <div id="about_us">
+        <div class="header-small">
+            <h2><span>About Us</span></h2>
+            <div class="container mt-5">
+                <p class="lead" v-html="trans('messages.moderators.text2')"></p>
+            </div>
+            <div class="container mt-5">
+                <p class="lead" v-html="trans('messages.moderators.text3')"></p>
+            </div>
+            <div class="container mt-5">
+                <p class="lead" v-html="trans('messages.moderators.founder_text')"></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact_us">
+        <div class="header-small">
+            <h2><span>Contact Us</span></h2>
+            <h5 class="text-center mb-5" style="top:0px;opacity:2;">
+                Any question? Reach out to us and we’ll get back to you shortly.
+            </h5>
+            <div class="container text-center">
+                <div class="social-links">
+                    <a href="mailto:email@100-x.capital">
+                        <img src="assets/img/email.png"/>
+                    </a>
+                    <a href="https://www.telegram.com/" target="_blank">
+                        <img src="assets/img/telegram.png"/>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank">
+                        <img src="assets/img/twitter2.png"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-5">
+        <div class="border-top"></div>
+        <br/>
+        <div class="container">
+            All rights reserved. Copyright © 2020, 100X Capital.
+        </div>
+    </footer>
+
+</div>
+
+
+<script src="https://cdn.steemjs.com/lib/latest/steem.min.js"></script>
+<script src="https://mktcode.github.io/steemit-widgets/assets/js/steemit-widgets.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/TweenMax.min.js"></script>
+<script type="text/javascript" src="assets/js/TimelineMax.min.js"></script>
+<script type="text/javascript" src="assets/js/popper.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/vue.min.js"></script>
+<script type="text/javascript" src="assets/js/ScrollMagic.min.js"></script>
+<script type="text/javascript" src="assets/js/animation.gsap.min.js"></script>
+<script type="text/javascript" src="assets/js/slick.min.js"></script>
+<script type="text/javascript" src="/assets/js/index.js"></script>
+
+</body>
+</html>

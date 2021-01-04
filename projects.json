@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Theta",
+    "teaser": "",
+    "image": "assets/img/theta.png",
+    "url": "https://www.thetatoken.org",
+    "github": {
+      "id": "59213335",
+      "url": "https://github.com/steemit/condenser"
+    }
+  },
+  {
+    "name": "Kyber Network",
+    "teaser": "",
+    "image": "assets/img/kyber.jpg",
+    "url": "https://kyber.network/",
+    "github": {
+      "id": "64382195",
+      "url": "https://github.com/busyorg/busy"
+    }
+  },
+  {
+    "name": "Bancor Protocol",
+    "teaser": "",
+    "image": "assets/img/bancor.jpg",
+    "url": "https://app.bancor.network/",
+    "github": {
+      "id": "104593314",
+      "url": "https://github.com/utopian-io/utopian.io"
+    }
+  },
+  {
+    "name": "Binance",
+    "teaser": "",
+    "image": "assets/img/binance.png",
+    "url": "https://www.binance.com/",
+    "github": {
+      "id": "2889328",
+      "url": "https://github.com/wordpress/wordpress"
+    }
+  },
+  {
+    "name": "Polkadot",
+    "teaser": "",
+    "image": "assets/img/polkadot.jpg",
+    "url": "https://polkadot.network/",
+    "github": {
+      "id": "106749740",
+      "url": "https://github.com/dtube/production"
+    }
+  },
+  {
+    "name": "Zilliqa",
+    "teaser": "",
+    "image": "assets/img/zilliqa.png",
+    "url": "https://www.zilliqa.com/",
+    "github": {
+      "id": "63218416",
+      "url": "https://github.com/eSteemApp/esteem"
+    }
+  },
+  {
+    "name": "OMG Network",
+    "teaser": "",
+    "image": "assets/img/omise.jpg",
+    "url": "https://omg.network/",
+    "github": {
+      "id": "63218416",
+      "url": "https://github.com/eSteemApp/esteem"
+    }
+  },
+  {
+    "name": "The Graph",
+    "teaser": "",
+    "image": "assets/img/graph.png",
+    "url": "https://thegraph.com/",
+    "github": {
+      "id": "63218416",
+      "url": "https://github.com/eSteemApp/esteem"
+    }
+  },
+  {
+    "name": "Chainlink",
+    "teaser": "",
+    "image": "assets/img/chainlink.jpg",
+    "url": "https://chain.link/",
+    "github": {
+      "id": "63218416",
+      "url": "https://github.com/eSteemApp/esteem"
+    }
+  },
+  {
+    "name": "Skale",
+    "teaser": "",
+    "image": "assets/img/skale.png",
+    "url": "https://skale.network/",
+    "github": {
+      "id": "63218416",
+      "url": "https://github.com/eSteemApp/esteem"
+    }
+  },
+  {
+    "name": "KAVA",
+    "teaser": "",
+    "image": "assets/img/kava.jpeg",
+    "url": "https://www.kava.io/",
+    "github": {
+      "id": "63218416",
+      "url": "https://github.com/eSteemApp/esteem"
+    }
+  }
+]
